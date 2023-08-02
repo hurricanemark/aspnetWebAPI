@@ -6,9 +6,9 @@ This project was created using `dotnet` commandline and loaded into VSCode.  The
 
 From a powershell terminal, do the followings:
 
-* Create a new folder and cd into it
+1. *Create a new folder and cd into it*
 
-* Verify dotnet templates available, there should be one for `webapi`
+2. *Verify dotnet templates available, there should be one for `webapi`*
 
 ```javascript
 dotnet new --list
@@ -24,7 +24,8 @@ code .
 
 At this stage, the project should be loading into VSCode.
 
-Open PS terminal and type:
+
+3. *Open PowerShell terminal and type:*
 
 ```typescript
 dotnet run
@@ -67,42 +68,5 @@ eg.
     },
 ```
 
-Open the browser to https//localhost:5059/weatherforecast/
-
-
-## Output
-
-```json
-[
-  {
-    "date": "2023-08-02",
-    "temperatureC": 26,
-    "temperatureF": 78,
-    "summary": "Chilly"
-  },
-  {
-    "date": "2023-08-03",
-    "temperatureC": 16,
-    "temperatureF": 60,
-    "summary": "Hot"
-  },
-  {
-    "date": "2023-08-04",
-    "temperatureC": -3,
-    "temperatureF": 27,
-    "summary": "Balmy"
-  },
-  {
-    "date": "2023-08-05",
-    "temperatureC": 10,
-    "temperatureF": 49,
-    "summary": "Bracing"
-  },
-  {
-    "date": "2023-08-06",
-    "temperatureC": -13,
-    "temperatureF": 9,
-    "summary": "Cool"
-  }
-]
-```
+4. *Open the browser to https//localhost:5059/weatherforecast/*
+![](./ASPNETCoreSwaggerUI.PNG)
