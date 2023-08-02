@@ -2,7 +2,7 @@
 
 This project was created using `dotnet` commandline and loaded into VSCode.  There may be a few extentions required such as SwaggerUI, C#, ASP.NET,...
 
-## Creating a new ASP.NET Core project
+## Create a new ASP.NET Core project
 
 From a powershell terminal, do the followings:
 
@@ -11,9 +11,12 @@ From a powershell terminal, do the followings:
 2. *Verify dotnet templates available, there should be one for `webapi`*
 
 ```javascript
+
 dotnet new --list
 
-dotnet new webapi -o myWeatherAPI
+dotnet new webapi -h
+
+dotnet new webapi -f net6.0 -o myWeatherAPI
 
 cd myWeatherAPI
 
