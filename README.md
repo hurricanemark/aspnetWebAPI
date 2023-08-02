@@ -2,7 +2,7 @@
 
 This project was created using `dotnet` commandline and loaded into VSCode.  There may be a few extentions required such as SwaggerUI, C#, ASP.NET,...
 
-## Creating a new ASP.NET Core project
+## Create a new ASP.NET Core project
 
 From a powershell terminal, do the followings:
 
